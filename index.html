@@ -17,7 +17,6 @@
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <script src="" async defer></script>
 
   <div id="main">
     <div class="box">
@@ -28,6 +27,19 @@
       </div>
     </div>
   </div>
+  <script src="pixi.js" async defer></script>
+  <script>
+    let app = new PIXI.Application({
+      window: window.innerWidth,
+      height: window.innerHeight
+    });
+    document.body.appendChild(app.view);
+
+    let img = new PIXI.Sprite.from("pfp.png");
+    img.width = window.innerWidth;
+    img.height = window.innerHeight;
+    app.stage.addChild(img);
+  </script>
 </body>
 
 </html>
