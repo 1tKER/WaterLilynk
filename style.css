@@ -12,6 +12,7 @@ body, html {
   align-items: center;
   justify-content: center;
   height: 100%;
+  position: relative;
 }
 
 .box {
@@ -21,16 +22,18 @@ body, html {
 
 /*icon*/
 .icon {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  transition: 0.25s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
+  width: 45%;
+  height: 45%;
+  transition: 0.25s;
   border-radius: 50%;
 }
 
-.icon:hover {
+img:hover {
   transform: scale(1.1125);
 }
