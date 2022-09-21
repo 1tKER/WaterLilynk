@@ -51,8 +51,7 @@ ul {
 li {
   display: flex;
   justify- content: space-around;
-  border: 1px solid red;
-  margin: 20px;
+  margin: 25px;
 }
 
 .botoni {
@@ -60,5 +59,13 @@ li {
   color: #001f3b;
   letter-spacing: 0.025rem;
   font-size: 1.125rem;
-}
 
+    /*background*/
+  width: 100%;
+  height: 30%;
+  background-color: #a1e8c6;
+  border-radius: 2rem;
+  line-height: 3.5rem;
+  border: 2px solid #33B2A0;
+  box-shadow: #33B2A0 12px 12px 0px 0px;
+}
