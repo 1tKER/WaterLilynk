@@ -25,6 +25,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 15%;
 }
 
 img {
@@ -50,4 +51,6 @@ ul {
 li {
   display: flex;
   justify- content: space-around;
+  border: 1px solid red;
+  margin: 20px;
 }
