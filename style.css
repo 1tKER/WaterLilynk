@@ -93,12 +93,14 @@ li {
   justify-content: center;
   padding-top: 20px;
   filter: invert(50%) sepia(41%) saturate(1098%) hue-rotate(303deg) brightness(104%) contrast(96%);
+  opacity: 50%;
 }
 
 .credits {
   font-family: 'Nunito', sans-serif;
   text-align: center;
   color: #FA6385;
+  opacity: 50%;
 }
 
 /*stars css test*/
