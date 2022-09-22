@@ -2,8 +2,14 @@
 body, html {
   margin: 0;
   height: 100%;
+  width: 100%;
   background-image: linear-gradient(#2e8775, #96ceb4, #f7c9b7, #f7b7b7, #ffabbe, #ff85b6);
   background-repeat: no-repeat;
+}
+
+img {
+  height: 8%;
+  width: 8%;
 }
 
 /*main box*/
@@ -25,18 +31,26 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15%;
 }
 
-img {
+img#myid {
   width: 35%;
   height: 35%;
   transition: 0.25s;
   border-radius: 50%;
 }
 
-img:hover {
+img#myid:hover {
   transform: scale(1.1125);
+}
+
+/*KER*/
+.name {
+  font-family: 'Nunito', sans-serif;
+  color: #2E6C87;
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
 }
 
 /*buttons*/
@@ -56,9 +70,9 @@ li {
 
 .botoni {
     /*font*/
-  color: #001f3b;
-  letter-spacing: 0.025rem;
-  font-size: 1.125rem;
+  color: #2E6C87;
+  letter-spacing: 0.030rem;
+  font-size: 1rem;
   text-decoration: none;
 
     /*background*/
