@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(#2e8775, #96ceb4, #f7c9b7, #f7b7b7, #ffabbe, #ff85b6);
+  background-image: linear-gradient(#232f9e, #5669cc, #9c6ade, #f28ad5, #e66ab4, #f2688f);
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -103,7 +103,8 @@ li {
   opacity: 50%;
 }
 
-/*stars css test*/
+/*stars animation css test*/
+/*i did like how the stars animation looked on the website :)*/
 #stars {
   width: 1px;
   height: 1px;
